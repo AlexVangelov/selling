@@ -1,0 +1,27 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  master_id: 1
+  resource_type_id: 
+  seazon_id: 
+  daytime_zone_id: 
+  months: 1
+  days: 1
+  stay: 1
+  qty: 9.99
+  plu_id: 1
+  recurring: false
+  type: 
+
+two:
+  master_id: 1
+  resource_type_id: 
+  seazon_id: 
+  daytime_zone_id: 
+  months: 1
+  days: 1
+  stay: 1
+  qty: 9.99
+  plu_id: 1
+  recurring: false
+  type: 
