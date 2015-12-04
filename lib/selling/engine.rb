@@ -6,6 +6,8 @@ module Selling
       g.orm             :active_record
       g.template_engine :jbuilder
       g.test_framework  :test_unit, fixture: true
+      g.stylesheets     false
+      g.javascripts     false
     end
   end
 end

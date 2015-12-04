@@ -2,10 +2,8 @@
 
 one:
   name: MyString
-  occupiable_type_id: 
   master_id: 1
 
 two:
   name: MyString
-  occupiable_type_id: 
   master_id: 1

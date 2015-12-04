@@ -10,6 +10,7 @@ module Selling
         has_many  :selling_resource_types, class_name: 'Selling::ResourceType', foreign_key: :master_id
         has_many  :selling_resources, class_name: 'Selling::Resource', foreign_key: :master_id
         has_many  :selling_payment_types, class_name: 'Billing::PaymentType', foreign_key: :master_id
+        has_many  :selling_tax_groups, class_name: 'Billing::TaxGroup', foreign_key: :master_id
       end
     end
 

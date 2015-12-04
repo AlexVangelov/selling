@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-
-  mount Selling::Engine => "/selling"
+  mount_selling_api at: "/selling", sellable: :current_sellable, concern: 'DummyConcern'
 end
